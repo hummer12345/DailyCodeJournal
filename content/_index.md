@@ -3,7 +3,6 @@ title: DailyCodeJournal Site
 toc: false
 ---
 
-This is the landing page.
 
 ## Explore
 
@@ -14,4 +13,3 @@ This is the landing page.
 
 ## Documentation
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
