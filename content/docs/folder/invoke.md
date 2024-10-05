@@ -30,12 +30,12 @@ namespace WinFormsApp1
 
 
 ### ※実行結果  
-![alt text](image-3.png)
+![alt text](./image-3.png)
 # なぜか
 これは<strong>UIスレッド以外からUIの変更を行おうとしたためである。</strong>
 
 
-![alt text](image.png)
+![alt text](./image.png)
 上記の画像のとおり、process関数はメインスレッド（UIスレッド）以外のスレッドで実行されているのが分かる。
 
 # ではどうするか
@@ -71,5 +71,5 @@ Invokeメソッドは引数として渡されたデリゲートをUIスレッド
 つまり、ここではprocess関数がUIスレッド上で実行される。  
 
 下記からも、先ほどはバックグラウンドスレッドで行われていたprocess関数がメインスレッド（UIスレッド）上で行われていることが確認できる。
-![alt text](image-3.png)
+![alt text](./image-3.png)
 
