@@ -1,3 +1,8 @@
+---
+title: Invoke
+type: docs
+prev: docs/folder/
+---
 
 # C#のInvokeとは
 バックグラウンドスレッドからUIスレッドに処理を委譲するためのメソッド
@@ -30,12 +35,12 @@ namespace WinFormsApp1
 
 
 ### ※実行結果  
-![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/content/docs/folder/image-3.png?raw=true)
+![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/images/image-3.png?raw=true)
 # なぜか
 これは<strong>UIスレッド以外からUIの変更を行おうとしたためである。</strong>
 
 
-![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/content/docs/folder/image.png?raw=true)
+![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/images/image.png?raw=true)
 上記の画像のとおり、process関数はメインスレッド（UIスレッド）以外のスレッドで実行されているのが分かる。
 
 # ではどうするか
@@ -71,5 +76,5 @@ Invokeメソッドは引数として渡されたデリゲートをUIスレッド
 つまり、ここではprocess関数がUIスレッド上で実行される。  
 
 下記からも、先ほどはバックグラウンドスレッドで行われていたprocess関数がメインスレッド（UIスレッド）上で行われていることが確認できる。
-![alt text](https://raw.githubusercontent.com/hummer12345/DailyCodeJournal/refs/heads/main/content/docs/folder/image-1.png)
+![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/images/image-1.png?raw=true)
 
