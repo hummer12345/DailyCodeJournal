@@ -33,7 +33,7 @@ namespace WinFormsApp1
 ```
 
 
-### ※実行結果  
+#### ※実行結果  
 ![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/static/images/image1.png?raw=true)
 ## なぜか
 これは<strong>UIスレッド以外からUIの変更を行おうとしたためである。</strong>
