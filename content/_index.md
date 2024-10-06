@@ -3,7 +3,7 @@ title:
 toc: false
 ---
 
-![alt text](https://raw.githubusercontent.com/hummer12345/DailyCodeJournal/refs/heads/main/static/images/6f2a9b3c-e5d4-4c88-9e1f-36f2d451bc98.webp)
+![alt text](https://raw.githubusercontent.com/hummer12345/DailyCodeJournal/refs/heads/main/static/images/8439472E-9FC6-4B56-86F0-4C0DAD5D74E3.webp)
 
 ## Explore
 
