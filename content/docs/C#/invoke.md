@@ -4,10 +4,10 @@ type: docs
 prev: docs/folder/
 ---
 
-# C#のInvokeとは
+## C#のInvokeとは
 バックグラウンドスレッドからUIスレッドに処理を委譲するためのメソッド
 
-# どういうことか
+## どういうことか
 例えば、以下のような処理はエラーになる
 
 ```C#
@@ -36,14 +36,14 @@ namespace WinFormsApp1
 
 ### ※実行結果  
 ![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/static/images/image1.png?raw=true)
-# なぜか
+## なぜか
 これは<strong>UIスレッド以外からUIの変更を行おうとしたためである。</strong>
 
 
 ![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/static/images/image2.png?raw=true)
 上記の画像のとおり、process関数はメインスレッド（UIスレッド）以外のスレッドで実行されているのが分かる。
 
-# ではどうするか
+## ではどうするか
 上記の通り、UIに関することはUIスレッドから行われなければならない。  
 そこでInvokeの出番である。
 Invokeメソッドにデリゲート関数を渡すことで、
