@@ -1,7 +1,7 @@
 ---
 title: Invoke
 type: docs
-prev: docs/folder/
+prev: docs/C#/
 ---
 
 ## C#のInvokeとは
