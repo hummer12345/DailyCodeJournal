@@ -1,5 +1,5 @@
 ---
-title: DailyCodeJournal Site
+title:
 toc: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Invoke
 type: docs
-prev: docs/C#/
 ---
 
 ## C#のInvokeとは
