@@ -44,3 +44,7 @@ params:
 
   editURL:
     enable: false
+
+services:
+  googleAnalytics:
+    ID: G-69RXGKZF48
