@@ -6,5 +6,5 @@ sidebar:
 ---
 
 {{< cards cols="1" >}}
-  {{< card link="/docs/c%23/" title="C#" >}}
+  {{< card link="c%23/" title="C#" >}}
 {{< /cards >}}

@@ -7,6 +7,6 @@ sidebar:
 
 
 {{< cards cols="1" >}}
-  {{< card link="/docs/c%23/invoke" title="Invoke" >}}
-  {{< card link="/docs/c%23/delegate" title="delegate" >}}
+  {{< card link="invoke/" title="Invoke" >}}
+  {{< card link="delegate/" title="delegate" >}}
 {{< /cards >}}
