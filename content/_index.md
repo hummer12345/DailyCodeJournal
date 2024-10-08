@@ -3,7 +3,7 @@ title:
 toc: false
 ---
 
-![alt text](https://raw.githubusercontent.com/hummer12345/DailyCodeJournal/refs/heads/main/static/images/8439472E-9FC6-4B56-86F0-4C0DAD5D74E3.webp)
+![alt text](https://github.com/hummer12345/DailyCodeJournal/blob/main/static/images/864877_A%20late-night%20scene%20featuring%20a%20girl%20programmer%20in%20_xl-1024-v1-0.png?raw=true)
 
 ## Explore
 
