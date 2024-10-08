@@ -7,6 +7,7 @@ sidebar:
 
 
 {{< cards cols="1" >}}
-  {{< card link="invoke/" title="Invoke" >}}
+  {{< card link="invoke/" title="invoke" >}}
   {{< card link="delegate/" title="delegate" >}}
+  {{< card link="extension_method/" title="拡張メソッド" >}}
 {{< /cards >}}

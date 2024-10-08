@@ -3,7 +3,7 @@ title: delegate
 type: docs
 ---
 
-## C#のdelegateとは
+## delegateとは
 
 特定のシグネチャをもつメソッドへの参照を保持できる
 

@@ -1,9 +1,9 @@
 ---
-title: Invoke
+title: invoke
 type: docs
 ---
 
-## C#のInvokeとは
+## invokeとは
 バックグラウンドスレッドからUIスレッドに処理を委譲するためのメソッド
 
 ## どういうことか
