@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My DailyCodeJournal
+title: DailyCodeJournal
 
 # import hextra as module
 module:
@@ -28,7 +28,6 @@ menu:
       weight: 3
       params:
         type: search
-    - name: Twitter
 
 params:
   page:
